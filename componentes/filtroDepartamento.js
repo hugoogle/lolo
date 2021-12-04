@@ -49,16 +49,16 @@ const FiltroDepartamentos = () => {
           data-departamento="todos">Todos os
           departamentos</a></li>
   <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined"
-          data-departamento="hortifruti">Hortifruti</a></li>
+          data-departamento="lapis">Lapis</a></li>
   <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined"
-          data-departamento="bebidas">Bebidas</a>
+          data-departamento="apontador">Apontador</a>
   </li>
   <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined"
-          data-departamento="mercearia">Mercearia</a></li>
+          data-departamento="lapiseira">Lapiseira</a></li>
   <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined"
-          data-departamento="padaria">Padaria</a></li>
+          data-departamento="caneta">Caneta</a></li>
   <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined"
-          data-departamento="congelados">Congelados</a></li>
+          data-departamento="postiti">Postiti</a></li>
   </ul>`;
   menuDepartamento.appendChild(filtroDepartamentos);
   filtroDepartamentos.addEventListener("click", filtrarDepartamento);
